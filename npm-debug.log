@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\NodeJS\\install\\node.exe',
+1 verbose cli   'D:\\Develop\\NodeJS\\install\\node_global\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.9
+3 info using node@v4.6.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle blog@0.0.1~prestart: blog@0.0.1
+6 silly lifecycle blog@0.0.1~prestart: no script for prestart, continuing
+7 info lifecycle blog@0.0.1~start: blog@0.0.1
+8 verbose lifecycle blog@0.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle blog@0.0.1~start: PATH: D:\Develop\NodeJS\install\node_global\node_modules\npm\bin\node-gyp-bin;D:\baiduyun\Github-Repository\other\myBlog\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Develop\jre\bin;D:\BigVim\install\vim80;D:\TortoiseGit\installl\bin;D:\git\bin;D:\Develop\NodeJS\install\node_global;D:\NodeJS\install\;D:\java\jdk\bin;D:\java\jdk\jre\bin;D:\AppServ\install\AppServ\Apache24\bin;C:\Users\xianfei\AppData\Roaming\npm
+10 verbose lifecycle blog@0.0.1~start: CWD: D:\baiduyun\Github-Repository\other\myBlog
+11 silly lifecycle blog@0.0.1~start: Args: [ '/d /s /c', 'node app.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:907:11)
+12 verbose stack     at process.kill (node.js:777:15)
+12 verbose stack     at process.listener (D:\Develop\NodeJS\install\node_global\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:72:20)
+12 verbose stack     at process.emit (events.js:166:7)
+12 verbose stack     at processEmit (D:\Develop\NodeJS\install\node_global\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (D:\Develop\NodeJS\install\node_global\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (node.js:804:46)
+13 verbose cwd D:\baiduyun\Github-Repository\other\myBlog
+14 error Windows_NT 6.1.7601
+15 error argv "D:\\NodeJS\\install\\node.exe" "D:\\Develop\\NodeJS\\install\\node_global\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v4.6.1
+17 error npm  v3.10.9
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
